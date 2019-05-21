@@ -4,7 +4,7 @@ It allows for executing promises, but with set timeouts.
 __example__: I request from a server, but if I don't receieve a response before 15 seconds, then I want the promise to time out.
 
 ```js
-const serverPromise = await getUsers();
+const serverPromise = getUsers();
 const result = await PromiseTimeout(15, "timed out!", serverPromise);
 ```
 
