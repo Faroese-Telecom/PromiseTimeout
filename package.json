@@ -1,7 +1,7 @@
 {
   "name": "promise-timeout",
-  "version": "0.1.3",
-  "description": "",
+  "version": "0.1.4",
+  "description": "allowing for executing promises, but with set timeouts. ",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --watch",
